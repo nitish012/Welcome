@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_splash_bg"
+        android:background="#4EC77E"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_height="80dp"
+        android:background="#F5EDED"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="15dp"
+            android:text="ENGLISH"
+
+            android:background="@drawable/button_english"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="15dp"
+            android:text="HINDI"
+
+
+            android:background="@drawable/list"/>
+
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="#EEECEC"
+            android:layout_marginTop="0dp">
+
+        </View>
+
+
+
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+
+        android:text="CONTINUE AS GUEST"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="CREATE ACCOUNT"
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="OTHERS"
+        android:textColor="#008000"
+        />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="16dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:textSize="16dp"
+
+       />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="19dp"
+        android:layout_marginStart="2dp"
+        android:textColor="#4EC77E"
+        android:layout_marginLeft="2dp" />
+</LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
